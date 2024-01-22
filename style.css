@@ -80,12 +80,13 @@ img{
     justify-content: center;
 }
 
-.btn2{
+/* CSS for dark mode IMPLEMENTATION */
+/* .btn2{
     margin: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 button{
     background-color: black;
