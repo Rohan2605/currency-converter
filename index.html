@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fbbe5497d7.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+</head>
+<body>
+    <div class="currency-box">
+        <div class="form-box">
+            <h2>Currency Converter</h2>
+            <form class="form">
+                <div class="amount">
+                    <p>Enter the amount</p>
+                    <input type="number" value="1">
+                </div>
+                <div class="country">
+                    <div class="from">
+                        <img src="https://flagsapi.com/US/flat/64.png">
+                        <select name="from" id="select">
+                            <!-- <option value="INR">INR</option>
+                            <option value="USD" selected>USD</option>
+                            <option value="EUR">EUR</option>
+                            <option value="JPY">JPY</option> -->
+                        </select>
+                    </div>
+    
+                    <div>
+                        <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                    </div>
+    
+                    <div class="to">
+                        <img src="https://flagsapi.com/IN/flat/64.png">
+                        <select name="to" id="select">
+                            <!-- <option value="INR" selected>INR</option>
+                            <option value="USD">USD</option>
+                            <option value="EUR">EUR</option>
+                            <option value="JPY">JPY</option> -->
+                        </select>
+                    </div>
+                </div>
+    
+                <div class="msg">
+                    <p>1 USD = 80 INR</p>
+                </div>
+    
+                <div class="btn">
+                    <button type="submit">Convert Currency</button>
+                </div>
+
+                <div class="btn2">
+                    <button>Dark Mode</button>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+    <script src="countryCodes.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
